@@ -5,20 +5,22 @@
     #titulo {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         color: blue;
-        font-size: 70px;
+        font-size: 4rem;
         text-align: end;
         align-self: center;
-        padding: 20px;
+        padding: 1rem;
         font-weight: bolder;
     }
     
     header {
-        background-image: : url('/Users/mariacristinamotoc/Desktop/ITAcademy/M2.-HTML_CSS/img/aspie1.jpg') no-repeat center center/cover;
+        background-image: url('/Users/mariacristinamotoc/Desktop/ITAcademy/M2.-HTML_CSS/img/aspie1.jpg');
+        background-size: cover;
+        background-position: center;
         display: grid;
         margin-left: auto;
         margin-right: auto;
-        width: 1220px;
-        height: 450px;
+        width: 100%;
+        height: 25em;
     }
     
     .botones {
@@ -29,7 +31,7 @@
     
     aside {
         font-weight: bold;
-        font-size: 18 px;
+        font-size: 1rem;
         background-color: lightgrey;
         float: left;
         margin-left: 10;
@@ -39,14 +41,12 @@
     .menu {
         list-style-type: none;
         font-weight: bold;
-        font-size: 20px;
+        font-size: 1.2rem;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        background-color: lightgrey;
-        margin-right: 25px;
-        margin-left: 200px;
+        margin-right: 1.5rem;
     }
     
     p {
@@ -55,7 +55,7 @@
     }
     
     .parrafo {
-        margin: 5px;
+        margin: 0.3rem;
     }
     
     a {
@@ -64,7 +64,7 @@
     
     input {
         color: blue;
-        font-size: 15px;
+        font-size: 1rem;
         font-weight: bold;
     }
     
@@ -75,23 +75,27 @@
     article {
         background-color: lightgray;
         color: black;
-        margin-right: 25px;
-        margin-left: 200px;
+        margin-right: 1.5rem;
+        margin-left: 12.5rem;
     }
     
-    .comentarios {
-        display: grid;
+    #commentaries {
+        margin-top: 1rem;
+        display: flex;
         justify-content: flex-end;
-        align-self: left;
+        align-items: flex-end;
+        flex-wrap: nowrap;
     }
     
     textarea {
-        font-size: 20px;
+        font-size: 1.3rem;
     }
     
     footer {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
         display: flex;
         justify-content: space-around;
         color: black;
-        font-size: 30px;
+        font-size: 2rem;
     }
